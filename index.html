@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Muhammad Rezky Kurniawan - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">Wellcome<span class="dot">.</span></div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <span class="greeting">Halo, saya</span>
+      <h1 class="name">Muhammad Rezky Kurniawan</h1>
+      <h2 class="title">Siswa Rekayasa Perangkat Lunak</h2>
+      <p class="description">
+        Siswa SMK jurusan Rekayasa Perangkat Lunak (RPL) yang memiliki ketertarikan mendalam di bidang komputer dan teknologi. Berfokus pada pengembangan logika pemrograman, pemecahan masalah melalui kode, serta eksplorasi dunia kecerdasan buatan.
+      </p>
+      <div class="hero-buttons">
+        <a href="#contact" class="btn btn-primary">Hubungi Saya</a>
+        <a href="#about" class="btn btn-secondary">Tentang Saya</a>
+      </div>
+    </div>
+
+    <!-- Square Photo Frame -->
+    <div class="hero-image">
+      <div class="square-frame">
+        <img src="images/awan.jpeg" alt="Muhammad Rezky Kurniawan">
+        <div class="corner-accent top-left"></div>
+        <div class="corner-accent bottom-right"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <h2 class="section-title">Tentang <span>Saya</span></h2>
+    <div class="about-card">
+      <p>
+        Saya seorang pelajar aktif SMK jurusan Rekayasa Perangkat Lunak yang senang mempelajari hal-hal baru di dunia teknologi komputer. Saya terus mengasah pemahaman dalam pemrograman, logika algoritma, dan siap terus berkembang di industri teknologi modern.
+      </p>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section">
+    <h2 class="section-title">Keahlian <span>Saya</span></h2>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <i class="fa-solid fa-code"></i>
+        <h3>Pemrograman</h3>
+        <p>Logika dasar pemrograman, struktur data, dan pengembangan perangkat lunak.</p>
+      </div>
+      <div class="skill-card">
+        <i class="fa-solid fa-laptop-code"></i>
+        <h3>Web Development</h3>
+        <p>Membuat antarmuka web menggunakan HTML, CSS, dan JavaScript.</p>
+      </div>
+      <div class="skill-card">
+        <i class="fa-solid fa-microchip"></i>
+        <h3>Teknologi Komputer</h3>
+        <p>Pemahaman dasar perangkat keras, perangkat lunak, dan eksplorasi tren IT.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <h2 class="section-title">Kontak <span>Saya</span></h2>
+    <div class="contact-container">
+      <form class="contact-form" id="contactForm">
+        <div class="form-group">
+          <input type="text" placeholder="Nama Anda" required>
+        </div>
+        <div class="form-group">
+          <input type="email" placeholder="Email Anda" required>
+        </div>
+        <div class="form-group">
+          <textarea rows="5" placeholder="Pesan Anda..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">Kirim Pesan</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 Muhammad Rezky Kurniawan. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
